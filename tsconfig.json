@@ -1,27 +1,20 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "esnext",
-    "strict": true,
-    "jsx": "preserve",
-    "importHelpers": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
+    // "strict": true,
+    // "jsx": "preserve",
+    // "importHelpers": true,
+    // "esModuleInterop": true, // babel compatibility
     "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
+    // if enable, also add this to 'webpack.config.js/module/exports': // devtool: 'inline-source-map',
+    // "sourceMap": true,
     "baseUrl": ".",
     "outDir": "./dist",
     "paths": {
       "@/*": [
         "src/*"
       ]
-    },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
+    }
   },
   "include": [
     "src/**/*.ts"
