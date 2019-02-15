@@ -15,7 +15,12 @@ npm run start -s
 Compatibility for bash is not tested, only for Windows OS now.
 
 ### IIS config file included in build.
-For helping deployment on ⊞ Microsoft Azure with ⊞ Microsoft windows.
+For helping deployment on ⊞ Microsoft Azure with ⊞ Microsoft IIS.
+
+### Use port 'process.env.PORT' if you need to let it work on cloud.
+You shouldn't miss this out.  
+Misaka has been purchased an azure support plan which costs 29 USD and 2 days to figure out where is the problem.  
+https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-nodejs#download-the-sample
 
 ### Not a http server template.
 This template is not meant to be used for serve http content.  

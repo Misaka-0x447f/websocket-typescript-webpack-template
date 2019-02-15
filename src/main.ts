@@ -1,6 +1,8 @@
 import * as ws from "ws";
 
-const wsi = new ws.Server({port: 6655});  // 114514 is not a valid port
+const port = (process.env.PORT || 80) as number;
+
+const wsi = new ws.Server({port});
 
 wsi.on("connection", function connection(server) {
   server.on("message", (message) => {
