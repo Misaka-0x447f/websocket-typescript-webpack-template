@@ -11,6 +11,11 @@ use '-s' for npm silent.
 npm run start -s
 ```
 ## FAQ
+### Including managed websocket library?
+No but can be installed later. [ClusterWS](https://github.com/ClusterWS) is my choice.  
+Please be noticed that cWS as a dependencies of ClusterWS v3 will not working on all OS.  
+You may want to include a version without langC yourself.
+
 ### Unix compatibility unknown.
 Compatibility for bash is not tested, only for Windows OS now.
 
