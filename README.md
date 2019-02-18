@@ -16,6 +16,10 @@ No but can be installed later. [ClusterWS](https://github.com/ClusterWS) is my c
 Please be noticed that cWS as a dependencies of ClusterWS v3 will not working on all OS.  
 You may want to include a version without langC yourself.
 
+### add SSL without have to save cert to repo with CI?
+Consider making a localhost proxy for your app. See
+https://blog.nodeswat.com/set-up-a-secure-node-js-web-application-9256b8790f11
+
 ### Unix compatibility unknown.
 Compatibility for bash is not tested, only for Windows OS now.
 
