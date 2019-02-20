@@ -25,7 +25,8 @@ https://blog.nodeswat.com/set-up-a-secure-node-js-web-application-9256b8790f11
 ### Deploying a nodejs server?
 ```bash
 # you may want to install nvm (node version manager) to install node, but you can still...
-apt install nodejs -y 
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+apt install nodejs -y
 npm i -g pm2
 pm2 startup
 pm2 start bundle.js
